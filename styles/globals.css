@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 10% 23%;  /* Gunmetal gray */
+    --foreground: 220 13% 70%;  /* Cool light gray for text */
+    --primary: 220 30% 45%;     /* Muted steel blue for accents */
+    --primary-foreground: 0 0% 100%;  /* White for contrast */
+    --card: 210 10% 30%;        /* Darker gunmetal gray for cards */
+    --card-foreground: 220 12% 65%;  /* Slightly darker gray-blue for text on cards */
+    --muted-foreground: 220 8% 50%;  /* Softer gray for muted text */
+  }
+  
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+  
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+
+  .text-primary {
+    color: hsl(var(--primary));
+  }
+
+  .bg-card {
+    background-color: hsl(var(--card));
+  }
+
+  .text-card-foreground {
+    color: hsl(var(--card-foreground));
+  }
+
+  .text-muted-foreground {
+    color: hsl(var(--muted-foreground));
+  }
+
+  .hover\:bg-primary:hover {
+    background-color: hsl(var(--primary));
+  }
+
+  .hover\:text-primary-foreground:hover {
+    color: hsl(var(--primary-foreground));
+  }
+}
