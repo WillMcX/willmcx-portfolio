@@ -3,7 +3,7 @@
 import Image from 'next/image'
 
 const projects = [
-  { id: 1, title: "WinSP", description: "A Windows security program developed in PowerShell that monitors services and detects background modifications of these Windows Services", image: "/WinSP_logo.png", url: "https://example.com/project1" },
+  { id: 1, title: "WinSP", description: "A Windows security program developed in PowerShell that monitors services and detects background modifications of these Windows Services", image: "/WinSP_logo.png", url: "https://winsp.vercel.app/" },
   { id: 2, title: "GPBundles", description: "An e-commerce website for gaming accessories and peripherals, developed for IT310(E-Commerce)", image: "/GP.png", url: "https://wam328.wixsite.com/gpbundles" },
   { id: 3, title: "Willy's Fruits", description: "A fruit stand website that simulates the advertisement and sales of fruit in order to demonstrate basic HTML, CSS, PHP and JavaScript Knowledge, developed for IT202(Intro Web Dev)", image: "/WF.png", url: "https://web.njit.edu/~wam32/SemesterProject/home.php" },
 ]
